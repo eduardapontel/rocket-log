@@ -75,7 +75,7 @@ Depending on the user role, the system provides different access levels:
 ```
   npm install
 ```
-Create a .env file based on .env-example.
+  - Create a .env file based on .env-example.
 
 3. Start the database with Docker:
 
@@ -94,7 +94,7 @@ Create a .env file based on .env-example.
 ```
   npm run dev
 ```
-The API will be available at (http://localhost:3333).
+  - The API will be available at (http://localhost:3333).
 
 <br>
 
