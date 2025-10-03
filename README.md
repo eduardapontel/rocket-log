@@ -66,8 +66,8 @@ Depending on the user role, the system provides different access levels:
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/eduardapontel/rocket-log.git
-   cd rocket-log
+   git clone https://github.com/eduardapontel/rocketlog.git
+   cd rocketlog
 ```
 
 2. Install dependencies:
