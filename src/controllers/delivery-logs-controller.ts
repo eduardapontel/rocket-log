@@ -49,6 +49,10 @@ class DeliveryLogsController {
             include: { user: true, logs: true },
         });
 
+        if (!delivery) {
+            return response.status(404).json({message: "Delivery not found"});
+        }
+
         if (request.user?.role === 'customer' && request.user.id !== delivery?.user_id) {
             throw new AppError('Unauthorized', 401);
         }
